@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@chakra-ui/icons": "^2.0.10",
     "@chakra-ui/react": "^2.3.2",
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
@@ -13,7 +14,13 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^3.11.0",
+    "react-image-gallery": "^1.2.9",
+    "react-images-uploading": "^3.1.7",
+    "react-router-dom": "6",
     "react-scripts": "5.0.1",
+    "react-uuid": "^1.0.3",
+    "util": "^0.12.4",
+    "uuidv4": "^6.2.13",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
