@@ -4,7 +4,6 @@ import CustomContainer from '../components/customContainer';
 import Pallete from '../styles/pallete';
 
 const News = () => {
-  const [data, setData] = useState();
 
   return (
     <Box>

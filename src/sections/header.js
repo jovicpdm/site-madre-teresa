@@ -1,12 +1,5 @@
 import React from 'react';
-import {
-  Box,
-  Heading,
-  HStack,
-  Show,
-  SimpleGrid,
-  Text,
-} from '@chakra-ui/react';
+import { Box, Heading, HStack, Show, SimpleGrid, Text } from '@chakra-ui/react';
 import Pallete from '../styles/pallete';
 import CustomLink from '../components/customLink';
 
