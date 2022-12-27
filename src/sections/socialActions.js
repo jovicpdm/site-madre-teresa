@@ -25,10 +25,12 @@ const SocialActions = () => {
       <Box>
         <Stack direction={['column', 'row']}>
           <CardSocialAction
+            img="https://jnkpsgcgjfgothmxgbue.supabase.co/storage/v1/object/sign/imt/20220914_194235.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbXQvMjAyMjA5MTRfMTk0MjM1LmpwZyIsInRyYW5zZm9ybWF0aW9ucyI6IiIsImlhdCI6MTY3MjE2ODg0MywiZXhwIjoxOTg3NTI4ODQzfQ.HtpJ1u619PHlZaT9QYHBAe_X244Bg7SA1_rs--hp2lY"
             title="Projeto Social Ação do Bem - Apoio Familiar"
             desc="Um auxilio financeiro para famílias carentes para uso exclusivo de compra de alimento em supermercados parceiros"
           />
           <CardSocialAction
+            img="https://drive.google.com/uc?export=view&id=1MCxE1K5gI39RQecXt6eY84n8kerDKEpl"
             title="Projeto Realizando Sonhos, Resgatando e Formando Cidadãos"
             desc="Projeto de ensino de Jiu Jitsu para as crianças e adolescentes do município de Itupiranga e na Vila Cajazeiras"
           />

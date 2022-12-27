@@ -1,5 +1,6 @@
 import React from 'react';
-import { Img, Center } from '@chakra-ui/react';
+import { Img, Center, Button, Link } from '@chakra-ui/react';
+import { BsInstagram } from 'react-icons/bs';
 
 import Pallete from '../styles/pallete';
 import Question from '../images/undraw_questions.svg';
@@ -33,6 +34,25 @@ const About = () => {
           do atendimento, e ética e a quelidade do serviço prestrado, promovemos
           ações em saúde.
         </CustomText>
+
+        <Link
+          href="https://www.instagram.com/institutomadretereza/"
+          isExternal
+          textDecoration={'none'}
+        >
+          <Button
+            marginY={8}
+            color={'whiteAlpha.900'}
+            bg={Pallete.secondary}
+            leftIcon={<BsInstagram />}
+            _hover={{
+              bg: '#f7f7f7',
+              color: '#8653B2',
+            }}
+          >
+            Conheça nossa página oficial
+          </Button>
+        </Link>
       </Center>
     </CustomContainer>
   );

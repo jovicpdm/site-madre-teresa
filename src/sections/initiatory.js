@@ -1,13 +1,14 @@
-import { Center, Img, Text } from '@chakra-ui/react';
+import { AspectRatio, Center, Img, Text } from '@chakra-ui/react';
 import React from 'react';
 import CustomContainer from '../components/customContainer';
+import Video from '../video/apresentacao.mp4';
 
 import MedicineFigure from '../images/undraw_medicine.svg';
 
 const Initiatory = () => {
   return (
     <CustomContainer id="initiatory">
-      <Center margin={['12px', '24px']}>
+      <Center margin={['12px', '24px']} display="flex" flexDirection={'column'}>
         <Text
           textAlign="center"
           maxW="300px"
