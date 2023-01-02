@@ -6,6 +6,7 @@ const CustomContainer = props => {
     <SimpleGrid id={props.id}
       columns={[1, 2]}
       bg={props.bg}
+      bgImage={""}
       padding={['12px', '24px']}
       alignItems='center'
     >
