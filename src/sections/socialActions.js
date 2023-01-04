@@ -37,7 +37,7 @@ const SocialActions = () => {
         </Stack>
       </Box>
       <Box padding={['12px', '24px']}>
-        <Link href='/news' color={Pallete.primary}>Veja as últimas ações</Link>
+        <Link href='/noticias' color={Pallete.primary}>Veja as últimas ações</Link>
       </Box>
     </Stack>
   );

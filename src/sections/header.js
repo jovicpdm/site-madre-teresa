@@ -17,7 +17,7 @@ const Header = props => {
     <SimpleGrid
       columns={[1, 2]}
       bg={Pallete.primaryDark}
-      padding={['12px', '24px']}
+      padding={['12px', '16px']}
       // bgImage={googleDriveView + "1YvZ-KS7x1RsDlhmgnGxapceWu2GmtAzH"}
     >
       <Box display="flex" mt={2} alignItems="center">
