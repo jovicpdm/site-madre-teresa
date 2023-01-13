@@ -4,7 +4,7 @@ import Pallete from '../styles/pallete';
 
 const CustomLink = props => {
   return (
-    <Link href={props.href} color={Pallete.primaryLight} fontSize="1rem">
+    <Link href={props.href} color={Pallete.primaryLight} fontSize="12px">
       {props.children}
     </Link>
   );

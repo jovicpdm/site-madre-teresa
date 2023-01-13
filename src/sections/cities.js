@@ -39,7 +39,7 @@ const Cities = () => {
               },
             ]}
           />
-          <CityAccordion
+          {/* <CityAccordion
             city="Brasil Novo"
             hospitals={[
               {
@@ -57,7 +57,7 @@ const Cities = () => {
                 address: 'Tv. Cassandro Silvério - Medicilândia, PA, 68145-000',
               },
             ]}
-          />
+          /> */}
           <CityAccordion
             city="Uruará"
             hospitals={[

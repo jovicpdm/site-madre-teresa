@@ -7,6 +7,7 @@ import SocialActions from '../sections/socialActions';
 import Localization from '../sections/localization';
 import Hall from '../sections/hall';
 import Cities from '../sections/cities';
+import PublicPortal from '../sections/publicPortal';
 function App() {
   return (
     <Box>
@@ -17,6 +18,7 @@ function App() {
       <Localization />
       <Hall />
       <Cities />
+      <PublicPortal />
     </Box>
   );
 }

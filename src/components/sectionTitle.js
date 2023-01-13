@@ -4,8 +4,15 @@ import Pallete from '../styles/pallete';
 
 const SectionTitle = props => {
   return (
-    <Box margin={'1rem 0'}>
-      <Text fontSize={['1rem', '2rem']} color={Pallete.primaryDark} fontWeight="bold">{props.children}</Text>
+    <Box marginBottom={'1rem 0'}>
+      <Text
+        fontSize={['1rem', '2rem']}
+        color={Pallete.primaryDark}
+        fontWeight="bold"
+        textAlign={"center"}
+      >
+        {props.children}
+      </Text>
     </Box>
   );
 };

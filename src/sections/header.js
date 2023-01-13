@@ -48,6 +48,7 @@ const Header = props => {
             <CustomLink href="#localization">Onde estamos</CustomLink>
             <CustomLink href="#hall">Equipe</CustomLink>
             <CustomLink href="#cities">Locais de Prestação</CustomLink>
+            <CustomLink href="#public">Portal Público</CustomLink>
           </HStack>
         </Show>
       </Box>
