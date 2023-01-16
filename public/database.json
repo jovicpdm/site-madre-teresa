@@ -17,9 +17,16 @@
         "1i8GbCdzthv7CKO0s5fk6AMsqoQO7Y8zb",
         "15K1PVhslbg4TAfzgxFV64CcF3jA-jrOR"
       ]
-    },
+    }
+  ],
+  "scales": [
     {
-        
+      "title":  "Escala Prevista Janeiro 2023 HMM",
+      "acronymHospital": "HMM",
+      "hospital": "Hospital Municipal de Marabá",
+      "year": 2023,
+      "month": "01",
+      "doc": "https://jnkpsgcgjfgothmxgbue.supabase.co/storage/v1/object/sign/docs/ESCALAS%20JANEIRO%202023%20HMM.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkb2NzL0VTQ0FMQVMgSkFORUlSTyAyMDIzIEhNTS5wZGYiLCJ0cmFuc2Zvcm1hdGlvbnMiOiIiLCJpYXQiOjE2NzM4NzQzNzcsImV4cCI6MTk4OTIzNDM3N30.t9LqXEY7rhetjL1MaN0eizNgl93K0peZjn4ZiE2nv8c"
     }
   ]
 }

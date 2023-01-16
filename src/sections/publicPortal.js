@@ -7,16 +7,17 @@ import Pallete from '../styles/pallete';
 const PublicPortal = () => {
   return (
     <Stack
-      id="public"
+      id="transparencia"
       padding={[8, 16]}
       display="flex"
       flexDirection="column"
       justifyContent={'center'}
       alignItems="center"
+      align={"stretch"}
     >
-      <SectionTitle>Publicações </SectionTitle>
+      <SectionTitle>Transparência </SectionTitle>
       <PortalButton href="/noticias">Ações Sociais</PortalButton>
-      <PortalButton href="/public">Escalas</PortalButton>
+      <PortalButton href="/transparencia">Escalas</PortalButton>
     </Stack>
   );
 };

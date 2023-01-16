@@ -39,6 +39,9 @@ const About = () => {
           href="https://www.instagram.com/institutomadretereza/"
           isExternal
           textDecoration={'none'}
+          _hover={{
+            textDecoration: 'none',
+          }}
         >
           <Button
             marginY={8}
@@ -46,7 +49,7 @@ const About = () => {
             bg={Pallete.secondary}
             leftIcon={<BsInstagram />}
             _hover={{
-              bg: '#f7f7f7',
+              bg: Pallete.primaryLight,
               color: '#8653B2',
             }}
             fontSize={[12, 16]}
