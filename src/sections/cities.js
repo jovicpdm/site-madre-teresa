@@ -11,7 +11,7 @@ const Cities = () => {
       textAlign={'center'}
       bg={Pallete.primaryLight}
       padding={['12px', '24px']}
-      id="cities"
+      id="locaisDePrestacao"
     >
       <SectionTitle>Cidades onde atuamos</SectionTitle>
       <Center flexDirection={['column', 'row']}>

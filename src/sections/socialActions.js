@@ -12,7 +12,7 @@ const SocialActions = () => {
       alignItems="center"
       padding={['12px', '24px']}
       marginBottom={['12px', '24px']}
-      id="socialActions"
+      id="acoesSociais"
     >
       <Box textAlign="center" marginBottom={['12px', '24px']}>
         <SectionTitle>Compromisso com a sociedade</SectionTitle>
@@ -35,9 +35,6 @@ const SocialActions = () => {
             desc="Projeto de ensino de Jiu Jitsu para as crianças e adolescentes do município de Itupiranga e na Vila Cajazeiras"
           />
         </Stack>
-      </Box>
-      <Box padding={['12px', '24px']}>
-        <Link href='/noticias' color={Pallete.primary}>Veja as últimas ações</Link>
       </Box>
     </Stack>
   );

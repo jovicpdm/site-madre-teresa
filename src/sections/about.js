@@ -10,10 +10,10 @@ import CustomContainer from '../components/customContainer';
 
 const About = () => {
   return (
-    <CustomContainer bg={Pallete.primaryLight} id="about">
+    <CustomContainer bg={Pallete.primaryLight} id="sobre">
       <Img src={Question} margin={['1rem 0', '1.5rem 0']} />
       <Center flexDirection={'column'}>
-        <SectionTitle>Quem somos nós?</SectionTitle>
+        <SectionTitle>Sobre nós</SectionTitle>
         <CustomText>
           Nós somos uma organização social <b>sem fins lucrativos</b> que atua
           no segmento de gestão em saúde.
@@ -49,6 +49,7 @@ const About = () => {
               bg: '#f7f7f7',
               color: '#8653B2',
             }}
+            fontSize={[12, 16]}
           >
             Conheça nossa página oficial
           </Button>

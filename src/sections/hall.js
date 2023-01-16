@@ -9,7 +9,7 @@ import SectionTitle from '../components/sectionTitle';
 const Hall = () => {
   return (
     <>
-      <Stack direction={'column'} align='center' id='hall'>
+      <Stack direction={'column'} align='center' id='equipe'>
         <SectionTitle>Hall de membros</SectionTitle>
         <Stack direction={['column-reverse', 'row']}>
           <List padding={'12px'} textAlign="center">

@@ -4,9 +4,9 @@ import Pallete from '../styles/pallete';
 
 const SectionTitle = props => {
   return (
-    <Box marginBottom={'1rem 0'}>
+    <Box marginBottom={'1rem'}>
       <Text
-        fontSize={['1rem', '2rem']}
+        fontSize={['1.5rem', '2rem']}
         color={Pallete.primaryDark}
         fontWeight="bold"
         textAlign={"center"}

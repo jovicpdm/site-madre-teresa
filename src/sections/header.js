@@ -43,12 +43,12 @@ const Header = props => {
       <Box>
         <Show above="sm">
           <HStack spacing={'8'}>
-            <CustomLink href="#about">Quem somos</CustomLink>
-            <CustomLink href="#socialActions">Ações Sociais</CustomLink>
-            <CustomLink href="#localization">Onde estamos</CustomLink>
-            <CustomLink href="#hall">Equipe</CustomLink>
-            <CustomLink href="#cities">Locais de Prestação</CustomLink>
-            <CustomLink href="#public">Portal Público</CustomLink>
+            <CustomLink href="#sobre">Sobre</CustomLink>
+            <CustomLink href="#acoesSociais">Ações Sociais</CustomLink>
+            <CustomLink href="#localizacao">Localização</CustomLink>
+            <CustomLink href="#equipe">Equipe</CustomLink>
+            <CustomLink href="#locaisDePrestacao">Locais de Prestação</CustomLink>
+            <CustomLink href="#transparencia">Transparencia</CustomLink>
           </HStack>
         </Show>
       </Box>

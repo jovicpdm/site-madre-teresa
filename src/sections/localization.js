@@ -7,7 +7,7 @@ import LocationCard from '../components/locationCard';
 
 const Localization = () => {
   return (
-    <CustomContainer bg={Pallete.primaryLight} id="localization">
+    <CustomContainer bg={Pallete.primaryLight} id="localizacao">
       <Stack direction="row">
         <Img src={Address} />
       </Stack>

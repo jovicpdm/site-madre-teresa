@@ -25,7 +25,7 @@ const Initiatory = () => {
           marginTop={[2, 4]}
           textAlign="center"
           maxW="300px"
-          fontSize={['16px', '1xl']}
+          fontSize={['14px', '1xl']}
           fontWeight="medium"
         >
           Um novo jeito de levar saúde a quem precisa. Estamos comprometidos com
