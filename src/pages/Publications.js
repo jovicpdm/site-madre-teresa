@@ -1,21 +1,23 @@
-import { Box, Link, SimpleGrid, Text } from '@chakra-ui/react';
+import { Box, Center, SimpleGrid } from '@chakra-ui/react';
 import React, { useEffect, useState } from 'react';
 import HeadPage from '../components/headPage';
+import TextCaption from '../components/textCaption';
+import TimeTableButton from '../components/timeTableButton';
 
 const Publications = () => {
-  const [scales, setScales] = useState([]);
+  const [timeTable, setTimeTable] = useState([]);
 
   useEffect(() => {
-    fetch('./database.json', {
+    fetch('./escalasHMM.json', {
       headers: {
         Accept: 'application/json',
       },
     })
       .then(res => res.json())
-      .then(res => setScales(res.scales));
+      .then(res => setTimeTable(res.timeTable));
   }, []);
 
-  console.log(scales);
+  console.log(timeTable);
 
   return (
     <Box>
@@ -23,15 +25,14 @@ const Publications = () => {
         title="Escalas"
         description="Veja aqui as escalas previstas e executadas dos hospitais que prestamos serviços"
       />
-      <SimpleGrid padding={[4, 8]} columns={[1, 3]}>
-        {scales.map(scale => {
-          return (
-            <Link href={scale.doc} isExternal>
-              {scale.title}
-            </Link>
-          );
-        })}
-      </SimpleGrid>
+      <Center padding={[4, 8]} display="flex" flexDirection="column">
+        <TextCaption>Hospital Municipal de Marabá</TextCaption>
+        <SimpleGrid paddingY={[4, 8]} columns={[1, 3]} spacing={[4, 8]}>
+          {timeTable.map((scale, index) => {
+            return <TimeTableButton key={index} href={scale.doc} title={scale.title} />;
+          })}
+        </SimpleGrid>
+      </Center>
     </Box>
   );
 };

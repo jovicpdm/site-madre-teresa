@@ -1,0 +1,44 @@
+{
+  "timeTable": [
+    {
+      "title": "Escala Prevista Janeiro 2023 HMM",
+      "acronymHospital": "HMM",
+      "hospital": "Hospital Municipal de Marabá",
+      "year": 2023,
+      "month": "01",
+      "doc": "https://jnkpsgcgjfgothmxgbue.supabase.co/storage/v1/object/sign/docs/ESCALAS%20JANEIRO%202023%20HMM.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkb2NzL0VTQ0FMQVMgSkFORUlSTyAyMDIzIEhNTS5wZGYiLCJ0cmFuc2Zvcm1hdGlvbnMiOiIiLCJpYXQiOjE2NzM4NzQzNzcsImV4cCI6MTk4OTIzNDM3N30.t9LqXEY7rhetjL1MaN0eizNgl93K0peZjn4ZiE2nv8c"
+    },
+    {
+      "title": "Escala Prevista Dezembro 2022 HMM",
+      "acronymHospital": "HMM",
+      "hospital": "Hospital Municipal de Marabá",
+      "year": 2022,
+      "month": "12",
+      "doc": "https://jnkpsgcgjfgothmxgbue.supabase.co/storage/v1/object/sign/docs/ESCALAS%20DEZEMBRO%202022%20HMM.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkb2NzL0VTQ0FMQVMgREVaRU1CUk8gMjAyMiBITU0ucGRmIiwiaWF0IjoxNjczOTYzNjI3LCJleHAiOjE5ODkzMjM2Mjd9.uTK7H6_4gnhIBdrjRrgSBNuj_mqRDjzYk002pcnoBHo"
+    },
+    {
+      "title": "Escala Prevista Novembro 2022 HMM",
+      "acronymHospital": "HMM",
+      "hospital": "Hospital Municipal de Marabá",
+      "year": 2022,
+      "month": "11",
+      "doc": "https://jnkpsgcgjfgothmxgbue.supabase.co/storage/v1/object/sign/docs/ESCALA%20PREVISTA%20NOVEMBRO%202022%20HMM.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkb2NzL0VTQ0FMQSBQUkVWSVNUQSBOT1ZFTUJSTyAyMDIyIEhNTS5wZGYiLCJpYXQiOjE2NzM5NjM4MzYsImV4cCI6MTk4OTMyMzgzNn0.6wBQbdfgeAGZj-zmSoAXwTPwZ96TGD7ZFP1ljBUaKnE"
+    },
+    {
+      "title": "Escala Prevista Outubro 2022 HMM",
+      "acronymHospital": "HMM",
+      "hospital": "Hospital Municipal de Marabá",
+      "year": 2022,
+      "month": "10",
+      "doc": "https://jnkpsgcgjfgothmxgbue.supabase.co/storage/v1/object/sign/docs/ESCALA%20OUTUBRO%20PREV%202022%20HMM.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkb2NzL0VTQ0FMQSBPVVRVQlJPIFBSRVYgMjAyMiBITU0ucGRmIiwiaWF0IjoxNjczOTYzOTQwLCJleHAiOjE5ODkzMjM5NDB9.dXKtuDkgBo5ZFtgQDkzYh9ZdZdT1Tdrff4WTOz0gi6c"
+    },
+    {
+      "title": "Escala Prevista Setembro 2022 HMM",
+      "acronymHospital": "HMM",
+      "hospital": "Hospital Municipal de Marabá",
+      "year": 2022,
+      "month": "09",
+      "doc": "https://jnkpsgcgjfgothmxgbue.supabase.co/storage/v1/object/sign/docs/ESCALA%20OUTUBRO%20PREV%202022%20HMM.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkb2NzL0VTQ0FMQSBPVVRVQlJPIFBSRVYgMjAyMiBITU0ucGRmIiwiaWF0IjoxNjczOTYzOTQwLCJleHAiOjE5ODkzMjM5NDB9.dXKtuDkgBo5ZFtgQDkzYh9ZdZdT1Tdrff4WTOz0gi6c"
+    }
+  ]
+}
