@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Center, Heading, Image, Text } from '@chakra-ui/react';
+import { Center, Heading, Image, Text } from '@chakra-ui/react';
 import Pallete from '../styles/pallete';
 
 const CardSocialAction = props => {

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Box, Center } from '@chakra-ui/react';
+import { Center } from '@chakra-ui/react';
 import HeadPage from '../components/headPage';
 import NewsCard from '../components/newsCard';
 
@@ -17,12 +17,12 @@ const News = () => {
   }, []);
 
   return (
-    <Box>
+    <Center flexDir={'column'}>
       <HeadPage
         title="Portal de Notícias"
         description="Veja aqui as notícias das ações sociais do Instituto"
       />
-      <Center>
+      <Center width={"container.md"} >
         {news.map(item => {
           return (
             <NewsCard
@@ -33,7 +33,7 @@ const News = () => {
           );
         })}
       </Center>
-    </Box>
+    </Center>
   );
 };
 

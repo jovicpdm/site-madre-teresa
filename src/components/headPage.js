@@ -4,7 +4,7 @@ import Pallete from '../styles/pallete';
 
 const HeadPage = (props) => {
   return (
-    <Box bg={Pallete.primaryDark} padding={[4, 8]} textAlign="center">
+    <Box bg={Pallete.primaryDark} padding={[4, 8]} textAlign="center" width={"100%"}>
       <Heading textAlign={'center'} fontSize={[20, 32]} color={'whiteAlpha.900'}>
         {props.title}
       </Heading>

@@ -1,10 +1,9 @@
 import React from 'react';
-import { Box, Stack, Link } from '@chakra-ui/react';
+import { Box, Stack } from '@chakra-ui/react';
 
 import SectionTitle from '../components/sectionTitle';
 import CustomText from '../components/customText';
 import CardSocialAction from '../components/cardSocialAction';
-import Pallete from '../styles/pallete';
 
 const SocialActions = () => {
   return (

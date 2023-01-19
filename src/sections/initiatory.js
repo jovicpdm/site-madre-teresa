@@ -1,11 +1,9 @@
 import React from 'react';
-import { AspectRatio, Center, Img, Text } from '@chakra-ui/react';
-import ReactPlayer from 'react-player';
+import {  Center, Img, Text } from '@chakra-ui/react';
 
 import CustomContainer from '../components/customContainer';
 import MedicineFigure from '../images/undraw_medicine.svg';
 import { googleDriveView } from '../utils/consts';
-import Video from './../video/apresentacao.mp4';
 
 const Initiatory = () => {
   return (

@@ -10,9 +10,8 @@ import {
 } from '@chakra-ui/react';
 import Pallete from '../styles/pallete';
 import CustomLink from '../components/customLink';
-import {googleDriveView} from '../utils/consts';
 
-const Header = props => {
+const Header = () => {
   return (
     <SimpleGrid
       columns={[1, 2]}

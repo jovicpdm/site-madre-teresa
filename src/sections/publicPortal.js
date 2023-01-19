@@ -1,8 +1,7 @@
-import { Box, Button, Stack } from '@chakra-ui/react';
+import { Stack } from '@chakra-ui/react';
 import React from 'react';
 import PortalButton from '../components/portalButton';
 import SectionTitle from '../components/sectionTitle';
-import Pallete from '../styles/pallete';
 
 const PublicPortal = () => {
   return (
@@ -13,7 +12,7 @@ const PublicPortal = () => {
       flexDirection="column"
       justifyContent={'center'}
       alignItems="center"
-      align={"stretch"}
+      align={'stretch'}
     >
       <SectionTitle>Transparência </SectionTitle>
       <PortalButton href="/noticias">Ações Sociais</PortalButton>
