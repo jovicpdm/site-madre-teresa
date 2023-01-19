@@ -40,10 +40,6 @@ const Hall = () => {
               name="Contabilista Santino Rodrigues"
               office="Consultor Administrativo"
             />
-            {/* <ListComponent
-              name="Médico Dr. Rodrigo Carvalho Gundim"
-              office="Responsável Técnico junto ao CRM-PA"
-            /> */}
             <ListComponent
               name="Robson Carneiro"
               office="Supervisor Operacional"

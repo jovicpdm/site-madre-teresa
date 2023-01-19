@@ -1,7 +1,7 @@
 import { DownloadIcon } from '@chakra-ui/icons';
 import { Button, Link } from '@chakra-ui/react';
 import React from 'react';
-import Pallete from '../styles/pallete';
+import ColorPalette from '../styles/colorPalette';
 
 const TimeTableButton = ({ href, title }) => {
   return (
@@ -13,10 +13,10 @@ const TimeTableButton = ({ href, title }) => {
       }}
     >
       <Button
-        bgColor={Pallete.primary}
+        bgColor={ColorPalette.primary}
         minWidth={370}
         color={'white'}
-        _hover={{ backgroundColor: '#f7f7f7', color: Pallete.primary }}
+        _hover={{ backgroundColor: '#f7f7f7', color: ColorPalette.primary }}
         rightIcon={<DownloadIcon />}
       >
         {title}

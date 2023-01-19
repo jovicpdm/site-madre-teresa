@@ -1,9 +1,9 @@
 import React from 'react';
-import {  Center, Img, Text } from '@chakra-ui/react';
+import { Center, Img, Text } from '@chakra-ui/react';
 
 import CustomContainer from '../components/customContainer';
 import MedicineFigure from '../images/undraw_medicine.svg';
-import { googleDriveView } from '../utils/consts';
+import { googleDriveView } from '../utils/const';
 
 const Initiatory = () => {
   return (

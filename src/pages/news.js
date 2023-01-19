@@ -22,7 +22,7 @@ const News = () => {
         title="Portal de Notícias"
         description="Veja aqui as notícias das ações sociais do Instituto"
       />
-      <Center width={"container.md"} >
+      <Center width={'container.md'}>
         {news.map(item => {
           return (
             <NewsCard

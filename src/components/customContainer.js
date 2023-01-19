@@ -3,12 +3,13 @@ import { SimpleGrid } from '@chakra-ui/react';
 
 const CustomContainer = props => {
   return (
-    <SimpleGrid id={props.id}
+    <SimpleGrid
+      id={props.id}
       columns={[1, 2]}
       bg={props.bg}
-      bgImage={""}
+      bgImage={''}
       padding={['12px', '24px']}
-      alignItems='center'
+      alignItems="center"
     >
       {props.children}
     </SimpleGrid>

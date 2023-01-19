@@ -1,13 +1,13 @@
 import React from 'react';
 import { Box, Text } from '@chakra-ui/react';
-import Pallete from '../styles/pallete';
+import ColorPalette from '../styles/colorPalette';
 
 const SectionTitle = props => {
   return (
     <Box marginBottom={'1rem'}>
       <Text
         fontSize={['1.5rem', '2rem']}
-        color={Pallete.primaryDark}
+        color={ColorPalette.primaryDark}
         fontWeight="bold"
         textAlign={"center"}
       >

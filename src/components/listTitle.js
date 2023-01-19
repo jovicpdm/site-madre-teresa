@@ -1,6 +1,6 @@
 import React from 'react';
 import { Text } from '@chakra-ui/react';
-import Pallete from '../styles/pallete';
+import ColorPalette from '../styles/colorPalette';
 
 const ListTitle = props => {
   return (
@@ -8,7 +8,7 @@ const ListTitle = props => {
       marginY={['8px', '12px']}
       fontSize={['1rem', '1.7rem']}
       fontWeight="bold"
-      color={Pallete.secondary}
+      color={ColorPalette.secondary}
     >
       {props.children}
     </Text>

@@ -8,14 +8,14 @@ import {
   SimpleGrid,
   Text,
 } from '@chakra-ui/react';
-import Pallete from '../styles/pallete';
+import ColorPalette from '../styles/colorPalette';
 import CustomLink from '../components/customLink';
 
 const Header = () => {
   return (
     <SimpleGrid
       columns={[1, 2]}
-      bg={Pallete.primaryDark}
+      bg={ColorPalette.primaryDark}
       padding={['12px', '16px']}
       // bgImage={googleDriveView + "1YvZ-KS7x1RsDlhmgnGxapceWu2GmtAzH"}
     >

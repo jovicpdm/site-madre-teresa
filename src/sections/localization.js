@@ -1,13 +1,13 @@
 import React from 'react';
 import { Container, Img, Stack, Text } from '@chakra-ui/react';
 import CustomContainer from '../components/customContainer';
-import Pallete from '../styles/pallete';
+import ColorPalette from '../styles/colorPalette';
 import Address from '../images/undraw_map.svg';
 import LocationCard from '../components/locationCard';
 
 const Localization = () => {
   return (
-    <CustomContainer bg={Pallete.primaryLight} id="localizacao">
+    <CustomContainer bg={ColorPalette.primaryLight} id="localizacao">
       <Stack direction="row">
         <Img src={Address} />
       </Stack>

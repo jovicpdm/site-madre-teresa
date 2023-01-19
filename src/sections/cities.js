@@ -2,14 +2,14 @@ import { Box, Center, SimpleGrid } from '@chakra-ui/react';
 import React from 'react';
 import CityAccordion from '../components/cityAccordion';
 import SectionTitle from '../components/sectionTitle';
-import Pallete from '../styles/pallete';
+import ColorPalette from '../styles/colorPalette';
 
 const Cities = () => {
   return (
     <Box
       alignItems="center"
       textAlign={'center'}
-      bg={Pallete.primaryLight}
+      bg={ColorPalette.primaryLight}
       padding={['12px', '24px']}
       id="locaisDePrestacao"
     >

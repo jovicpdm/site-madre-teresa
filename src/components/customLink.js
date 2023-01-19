@@ -1,10 +1,10 @@
 import { Link } from '@chakra-ui/react';
 import React from 'react';
-import Pallete from '../styles/pallete';
+import ColorPalette from '../styles/colorPalette';
 
 const CustomLink = props => {
   return (
-    <Link href={props.href} color={Pallete.primaryLight} fontSize="12px">
+    <Link href={props.href} color={ColorPalette.primaryLight} fontSize="12px">
       {props.children}
     </Link>
   );

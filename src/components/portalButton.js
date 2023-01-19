@@ -1,6 +1,6 @@
 import { Button, Link } from '@chakra-ui/react';
 import React from 'react';
-import Pallete from '../styles/pallete';
+import ColorPalette from '../styles/colorPalette';
 
 const PortalButton = props => {
   return (
@@ -13,11 +13,11 @@ const PortalButton = props => {
     >
       <Button
         width={[260, '1xl']}
-        bgColor={Pallete.primaryDark}
+        bgColor={ColorPalette.primaryDark}
         color="white"
         _hover={{
-          backgroundColor: "#f7f7f7",
-          color: Pallete.primaryDark,
+          backgroundColor: '#f7f7f7',
+          color: ColorPalette.primaryDark,
         }}
       >
         {props.children}

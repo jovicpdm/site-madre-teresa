@@ -8,7 +8,7 @@ import Localization from '../sections/localization';
 import Hall from '../sections/hall';
 import Cities from '../sections/cities';
 import PublicPortal from '../sections/publicPortal';
-// import Pallete from '../styles/pallete';
+
 function App() {
   return (
     <Box>

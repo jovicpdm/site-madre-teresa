@@ -29,7 +29,13 @@ const Publications = () => {
         <TextCaption>Hospital Municipal de Marabá</TextCaption>
         <SimpleGrid paddingY={[4, 8]} columns={[1, 3]} spacing={[4, 8]}>
           {timeTable.map((scale, index) => {
-            return <TimeTableButton key={index} href={scale.doc} title={scale.title} />;
+            return (
+              <TimeTableButton
+                key={index}
+                href={scale.doc}
+                title={scale.title}
+              />
+            );
           })}
         </SimpleGrid>
       </Center>

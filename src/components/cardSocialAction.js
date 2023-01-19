@@ -1,6 +1,6 @@
 import React from 'react';
 import { Center, Heading, Image, Text } from '@chakra-ui/react';
-import Pallete from '../styles/pallete';
+import ColorPalette from '../styles/colorPalette';
 
 const CardSocialAction = props => {
   return (
@@ -13,8 +13,14 @@ const CardSocialAction = props => {
       textAlign="center"
       flexDirection={'column'}
     >
-      <Image src={props.img} borderRadius="8" marginBottom={8} height="300" alignSelf={"ce"}/>
-      <Heading fontSize={['16px', '24px']} color={Pallete.secondary}>
+      <Image
+        src={props.img}
+        borderRadius="8"
+        marginBottom={8}
+        height="300"
+        alignSelf={'ce'}
+      />
+      <Heading fontSize={['16px', '24px']} color={ColorPalette.secondary}>
         {props.title}
       </Heading>
       <Text mt={4} fontSize={['12px', '20px']}>
