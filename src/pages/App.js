@@ -19,7 +19,7 @@ function App() {
       <Localization />
       <Hall />
       <Cities />
-      <PublicPortal />
+      {/* <PublicPortal /> */}
     </Box>
   );
 }

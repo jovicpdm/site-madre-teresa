@@ -26,11 +26,11 @@ const Localization = () => {
             Estamos localizados em duas cidades
           </Text>
           <LocationCard
-            city="Xinguara - PA"
-            address="Rua Guajajaras, nº 55, centro"
+            city="Xinguara - PA (Sede)"
+            address="Avenida dos Ipês, S/N, Quadra 31, Setor 31, Setor Jardim Tropical"
           />
           <LocationCard
-            city="Marabá - PA"
+            city="Marabá - PA (Escritório)"
             address="Folha 26, Quadra 05 - Lote 15, Nova Marabá"
           />
         </Container>

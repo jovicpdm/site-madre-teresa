@@ -48,7 +48,7 @@ const Cities = () => {
                   'Tv. Vinte e Oito de Abril, 110-212, Brasil Novo - PA, 68148-000',
               },
             ]}
-          />
+          /> */}
           <CityAccordion
             city="Medicilândia"
             hospitals={[
@@ -57,7 +57,7 @@ const Cities = () => {
                 address: 'Tv. Cassandro Silvério - Medicilândia, PA, 68145-000',
               },
             ]}
-          /> */}
+          />
           <CityAccordion
             city="Uruará"
             hospitals={[
